@@ -1,0 +1,20 @@
+﻿/*body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}*/
+
+.width50 {
+    width: 50%;
+    margin: auto;
+}
+
+.width25 {
+    width: 25%;
+    margin: auto;
+    float: left;
+}
+
+.center {
+    text-align: center;
+    align-content: center;
+}

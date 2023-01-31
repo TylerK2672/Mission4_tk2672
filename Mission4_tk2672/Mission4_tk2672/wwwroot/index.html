@@ -1,0 +1,75 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Mission #4</title>
+
+    <!--
+        Tyler Kendall
+        tk2672
+        Section 4
+    -->
+
+    <!-- icon -->
+    <link rel="icon" type="image/x-icon" href="/img/favicon_t.png">
+
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+    <link rel="stylesheet" href="css/index.css">
+</head>
+<body>
+    <!-- title and photo -->
+    <h1 class="title">Tyler Kendall</h1>
+
+    <figure class="image is-128x128">
+        <img src="img/Snowboarding.jpg" />
+    </figure>
+
+    <!-- paragraph and top 3 jobs section-->
+    <div class="content center">
+        <h5>What I hope to get out of this class</h5>
+        <div class="width50">
+            <p class="center">
+                I am personally not interested in pursuing a career in software development.
+                However, I do enjoy software development for fun, so I am excited for this class,
+                specifically to learn c# and more about the .NET framework.
+                I am not just interested in this class for fun though,
+                I also hope that gaining this knowledge of enterprise application development can apply to whatever career I choose.
+            </p>
+        </div>
+        
+        <br />
+
+        <h5>Top 3 jobs I am interested in</h5>
+        <p>Penetration Testing</p>
+        <p>Cybersecurity Analyst</p>
+        <p>Data Analyst</p>
+    </div>
+
+    <br />
+
+    <!-- grade calculator section -->
+    <div class="content">
+        <h4>Grade Calculator</h4>
+        <form>
+            <div class="width25">
+                <input id="assignments" class="input is-primary" type="number" placeholder="Assignments">
+                <input id="quizzes" class="input is-primary" type="number" placeholder="Quizzes">
+                <input id="projects" class="input is-primary" type="number" placeholder="Group Projects">
+                <input id="intex" class="input is-primary" type="number" placeholder="Intex">
+                <input id="exams" class="input is-primary" type="number" placeholder="Exams">
+                <input id="extra" class="input is-primary" type="number" placeholder="Extra Credit">
+            </div>
+            <input id="submitGrades" type="button" value="Submit Grades" />
+        </form>
+    </div>
+
+    <!-- will be filled in with letter grade -->
+    <p id="letterGrade"></p>
+
+
+
+    <script src="lib/jQuery/jquery-3.6.3.min.js"></script>
+    <script src="js/GradeCalculator.js"></script>
+</body>
+</html>

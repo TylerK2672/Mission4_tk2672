@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "IllezTGW3CTYB8TImHkmPX3b8SvkRWf6vuW8D0Dh5c7kBzGr+ORy4n4m4eW08EUAtawMxV33S4DFXHqQ7jN9Aw==",
+  "success": true,
+  "projectFilePath": "/Users/tylerkendall/Desktop/School/IS Core Winter 23/413/Mission4_tk2672/Mission4_tk2672/Mission4_tk2672.csproj",
+  "expectedPackageFiles": [
+    "/Users/tylerkendall/.nuget/packages/microsoft.aspnetcore.app.ref/5.0.0/microsoft.aspnetcore.app.ref.5.0.0.nupkg.sha512",
+    "/Users/tylerkendall/.nuget/packages/microsoft.netcore.app.host.osx-x64/5.0.17/microsoft.netcore.app.host.osx-x64.5.0.17.nupkg.sha512",
+    "/Users/tylerkendall/.nuget/packages/microsoft.netcore.app.ref/5.0.0/microsoft.netcore.app.ref.5.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}
