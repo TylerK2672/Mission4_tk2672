@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/tylerkendall/Desktop/School/IS Core Winter 23/413/Mission4_tk2672/Mission4_tk2672/Mission4_tk2672.csproj",
+      "projectUniqueName": "/Users/tylerkendall/Desktop/School/IS_Winter_23/413/Mission4_tk2672/Mission4_tk2672/Mission4_tk2672/Mission4_tk2672.csproj",
       "projectName": "Mission4_tk2672",
-      "projectPath": "/Users/tylerkendall/Desktop/School/IS Core Winter 23/413/Mission4_tk2672/Mission4_tk2672/Mission4_tk2672.csproj",
+      "projectPath": "/Users/tylerkendall/Desktop/School/IS_Winter_23/413/Mission4_tk2672/Mission4_tk2672/Mission4_tk2672/Mission4_tk2672.csproj",
       "packagesPath": "/Users/tylerkendall/.nuget/packages/",
-      "outputPath": "/Users/tylerkendall/Desktop/School/IS Core Winter 23/413/Mission4_tk2672/Mission4_tk2672/obj/",
+      "outputPath": "/Users/tylerkendall/Desktop/School/IS_Winter_23/413/Mission4_tk2672/Mission4_tk2672/Mission4_tk2672/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/tylerkendall/.nuget/NuGet/NuGet.Config"

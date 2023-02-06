@@ -17,10 +17,14 @@
     <Folder Include="wwwroot\lib\" />
     <Folder Include="wwwroot\lib\jQuery\" />
     <Folder Include="wwwroot\css\" />
+    <Folder Include="Views\" />
   </ItemGroup>
   <ItemGroup>
     <Content Update="wwwroot\js\GradeCalculator.js">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <None Remove="Views\" />
   </ItemGroup>
 </Project>
