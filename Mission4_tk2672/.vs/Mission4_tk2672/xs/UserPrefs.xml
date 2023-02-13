@@ -1,0 +1,31 @@
+﻿<Properties StartupConfiguration="{2AB0DDA2-FC60-45CC-B61F-5C0CDBAF30AF}|Default">
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.ItemProperties.Mission4__tk2672 PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Mission4_tk2672/Models/GradeCalculatorModel.cs">
+    <Files>
+      <File FileName="Mission4_tk2672/Controllers/HomeController.cs" />
+      <File FileName="Mission4_tk2672/Views/_ViewImports.cshtml" />
+      <File FileName="Mission4_tk2672/wwwroot/js/GradeCalculator.js" />
+      <File FileName="Mission4_tk2672/Views/Home/GradeCalculator.cshtml" />
+      <File FileName="Mission4_tk2672/Models/GradeCalculatorModel.cs" Line="28" Column="32" />
+      <File FileName="Mission4_tk2672/Views/Shared/_Layout.cshtml" />
+      <File FileName="Mission4_tk2672/Views/Home/Index.cshtml" Line="26" Column="15" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Mission4_tk2672" selected="True" />
+          <Node name="Mission4_tk2672" expanded="True" />
+        </State>
+      </Pad>
+      <Pad Id="MonoDevelop.Debugger.WatchPad">
+        <State />
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+</Properties>

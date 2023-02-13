@@ -1,0 +1,32 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+
+@model GradeCalculatorModel;
+
+    <!-- grade calculator section -->
+    <div class="content">
+        <h4>Grade Calculator</h4>
+        <form method="post">
+            <div class="width25">
+                <input id="assignments" asp-for="Assignments" class="input is-primary" type="number" placeholder="Assignments">
+                <input id="quizzes" asp-for="Quizzes" class="input is-primary" type="number" placeholder="Quizzes">
+                <input id="projects" asp-for="Projects" class="input is-primary" type="number" placeholder="Group Projects">
+                <input id="intex" asp-for="Intex" class="input is-primary" type="number" placeholder="Intex">
+                <input id="exams" asp-for="Exams" class="input is-primary" type="number" placeholder="Exams">
+                <input id="extra" asp-for="Extra" class="input is-primary" type="number" placeholder="Extra Credit">
+            </div>
+            <input id="submitGrades" type="submit" value="Submit Grades" />
+        </form>
+    </div>
+
+    <!-- will be filled in with letter grade -->
+    <p id="letterGrade"></p>
+    <p id="total"></p>
+
+    <div asp-validation-summary="All"></div>
+    
+    <script src="~/js/jquery-3.6.3.min.js"></script>
+    <script src="~/js/GradeCalculator.js"></script>

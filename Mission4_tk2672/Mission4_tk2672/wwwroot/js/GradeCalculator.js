@@ -1,4 +1,4 @@
-﻿$('#submitGrades').click(function () {
+﻿$('#submitGrades').click(function (e) {
     total = (
         parseInt($('#assignments').val())
         + parseInt($('#quizzes').val())
@@ -7,7 +7,6 @@
         + parseInt($('#exams').val())
         + parseInt($('#extra').val())
     ) / 6
-    alert(total)
 
     if (total >= 94) {
         $('#letterGrade').append('A')
@@ -47,4 +46,7 @@
     }
 
     $('#letterGrade').fadeIn()
+
+    $('#total').append(total)
+    $('#total').fadeIn()
 })

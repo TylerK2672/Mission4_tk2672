@@ -7,17 +7,15 @@
   <ItemGroup>
     <Content Remove="wwwroot\img\" />
     <Content Remove="wwwroot\js\" />
-    <Content Remove="wwwroot\lib\" />
-    <Content Remove="wwwroot\lib\jQuery\" />
     <Content Remove="wwwroot\css\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="wwwroot\img\" />
     <Folder Include="wwwroot\js\" />
-    <Folder Include="wwwroot\lib\" />
-    <Folder Include="wwwroot\lib\jQuery\" />
     <Folder Include="wwwroot\css\" />
     <Folder Include="Views\" />
+    <Folder Include="Models\" />
+    <Folder Include="Views\Shared\" />
   </ItemGroup>
   <ItemGroup>
     <Content Update="wwwroot\js\GradeCalculator.js">
@@ -26,5 +24,7 @@
   </ItemGroup>
   <ItemGroup>
     <None Remove="Views\" />
+    <None Remove="Models\" />
+    <None Remove="Views\Shared\" />
   </ItemGroup>
 </Project>
